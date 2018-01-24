@@ -4,4 +4,6 @@
 * [What is XYZ?](first-question.md)
 * [How can I do X?](second-question.md)
 * [Using Es Lint](using-es-lint.md)
+* [How to use Yarn?](how-to-use-yarn.md)
+* [Preflighted requests](preflighted-requests.md)
 
