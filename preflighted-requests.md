@@ -24,11 +24,7 @@ The only allowed methods are:
 * [`HEAD`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD)
 * [`POST`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
 
-The only allowed values for the
-
-[`Content-Type`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
-
-header are:
+The only allowed values for the[`Content-Type`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)header are:
 
 * `application/x-www-form-urlencoded`
 * `multipart/form-data`
