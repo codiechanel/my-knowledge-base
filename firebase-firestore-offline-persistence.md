@@ -1,6 +1,8 @@
- await firebase.firestore\(\).enablePersistence\(\)
+await firebase.firestore\(\).enablePersistence\(\)
 
- this.db = firebase.firestore\(\)
+this.db = firebase.firestore\(\)
 
-querySnapshot.metadata.fromCache 
+querySnapshot.metadata.fromCache
+
+This only triggers when user is offline
 

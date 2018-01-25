@@ -4,21 +4,15 @@ Service workers are [not currently supported](https://jakearchibald.github.io/is
 
 Example codes
 
-let cache = await caches.open\('my-cache'\)
+`let cache = await caches.open('my-cache')`
 
- let req = new Request\('/bookmarks10.json'\)
+`let req = new Request('/bookmarks10.json')`
 
-      let stored = await caches.match\(req\)
+`let stored = await caches.match(req)`
 
-let keys = await cache.keys\(\)
+`let keys = await cache.keys()`
+
+`await cache.put(req, new Response\(JSON.stringify\(this.bookmarks.values\(\)\)\))`
 
 
-
- await cache.put\(
-
-          req,
-
-          new Response\(JSON.stringify\(this.bookmarks.values\(\)\)\)
-
-        \)
 
