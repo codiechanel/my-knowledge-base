@@ -6,4 +6,5 @@
 * [Using Es Lint](using-es-lint.md)
 * [How to use Yarn?](how-to-use-yarn.md)
 * [Preflighted requests](preflighted-requests.md)
+* [Making a Progressive Web App](making-a-progressive-web-app.md)
 
