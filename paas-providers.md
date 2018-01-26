@@ -8,13 +8,14 @@ sleep after 30 min idle
 
 Has deploy from github feature
 
-**Openshift    
-**doesn't sleep yet
+**Openshift**
+
+doesn't sleep yet
 
 1 gig ram
 
 1 project only
 
-**Zeit    
-**3 instances
+**Zeit**
+3 instances
 
