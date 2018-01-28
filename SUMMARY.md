@@ -9,4 +9,6 @@
 * [Making a Progressive Web App](making-a-progressive-web-app.md)
 * [Firebase Firestore Offline Persistence](firebase-firestore-offline-persistence.md)
 * [PAAS Providers](paas-providers.md)
+* [Netlify](netlify.md)
+* [Keyboard Shortcuts](keyboard-shortcuts.md)
 
