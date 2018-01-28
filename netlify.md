@@ -1,26 +1,26 @@
 **create .babelrc**
 
-`{`
+{
 
-```
-"presets": \[
+    "presets": \[
 
-    \[
+        \[
 
-        "env",
+            "env",
 
-        {
+            {
 
-            "targets": { "node": "6.10.0" }
+                "targets": { "node": "6.10.0" }
 
-        }
+            }
+
+        \]
 
     \]
 
-\]
-```
+}
 
-`}`
+
 
 install babel-preset-env
 
