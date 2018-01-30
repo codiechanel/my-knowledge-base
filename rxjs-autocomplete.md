@@ -1,6 +1,6 @@
 Import rxjs
 
-```
+```javascript
    var keyup = Rx.Observable.fromEvent(this.input, 'keyup')
     .map(e => {
       return e.target.value; // Project the text from the input
@@ -14,7 +14,7 @@ Import rxjs
     .distinctUntilChanged()
 ```
 
-Test
+Test nice
 
 
 
