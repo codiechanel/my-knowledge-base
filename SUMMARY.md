@@ -13,4 +13,5 @@
 * [Keyboard Shortcuts](keyboard-shortcuts.md)
 * [Mobx](mobx.md)
 * [RXJS autocomplete](rxjs-autocomplete.md)
+* [Indexed DB](indexed-db.md)
 
