@@ -14,4 +14,5 @@
 * [Mobx](mobx.md)
 * [RXJS autocomplete](rxjs-autocomplete.md)
 * [Indexed DB](indexed-db.md)
+* [Heroku](heroku.md)
 
