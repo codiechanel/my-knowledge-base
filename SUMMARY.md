@@ -16,4 +16,5 @@
 * [Indexed DB](indexed-db.md)
 * [Heroku](heroku.md)
 * [NWB](nwb.md)
+* [String Replace](string-replace.md)
 
