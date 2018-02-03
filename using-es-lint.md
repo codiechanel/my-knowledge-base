@@ -1,6 +1,7 @@
 **commands**:
-
+```
 eslint --init
+```
 
 Example **.eslintrc **use by [create-react-app](https://github.com/facebook/create-react-app)
 
