@@ -29,11 +29,12 @@ Example **.eslintrc **use by [create-react-app](https://github.com/facebook/crea
       "strict": ["error", "global"],
       "curly": "off",
       "react/jsx-uses-vars": 1
-      
+
     }
   }
 ```
 
+Notes:
 
-Great
+The plugins section is important, it allows us to use `react/jsx-uses-vars` that will prevent no-unused-vars warning.
 
