@@ -1,6 +1,6 @@
 **create .babelrc**
 
-```
+```javascript
 {
     "presets": [
         [
@@ -13,7 +13,8 @@
 }
 ```
 
-Cool
-
+Then...
+```
 install babel-preset-env
+```
 
