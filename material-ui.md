@@ -4,7 +4,9 @@ Your external css may not apply to a Material-UI component since, it's using inl
 
 You can use `!important` if you want to override these inline styles.
 
+```javascript
+import Reboot from 'material-ui/Reboot'
+```
 
-
-
+&lt;Reboot /&gt;
 
