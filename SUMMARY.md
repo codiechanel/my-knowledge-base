@@ -16,4 +16,5 @@
 * [NWB](nwb.md)
 * [String Replace](string-replace.md)
 * [CSS Scrollbar](css-scrollbar.md)
+* [Using npm](using-npm.md)
 
