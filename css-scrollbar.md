@@ -1,9 +1,10 @@
-Browser Support  
-Chrome
+**Browser Support**
 
 | Chrome | Safari | Firefox | Opera | IE | Android | iOS |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | yep | yep | nope | 15+ | nope | yep | yep |
+
+**Example:**
 
 ```css
 div::-webkit-scrollbar {
@@ -19,3 +20,6 @@ div::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 ```
+
+
+
