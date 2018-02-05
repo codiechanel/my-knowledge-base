@@ -18,4 +18,5 @@
 * [CSS Scrollbar](css-scrollbar.md)
 * [Using npm](using-npm.md)
 * [Material-UI](material-ui.md)
+* [Using Firebase](using-firebase.md)
 
