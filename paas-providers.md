@@ -1,6 +1,6 @@
 # PAAS Providers
 
-**Heroku**
+## **Heroku**
 
 sleep after 30 min idle
 
@@ -8,7 +8,7 @@ sleep after 30 min idle
 
 Has deploy from github feature
 
-**Openshift**
+## **Openshift**
 
 doesn't sleep yet
 
@@ -16,7 +16,7 @@ doesn't sleep yet
 
 1 project only
 
-**Zeit**
+## **Zeit**
 
 3 instances
 
