@@ -10,7 +10,7 @@ import Reboot from 'material-ui/Reboot'
 
 &lt;Reboot /&gt;
 
-Material UI provides several methods to customize the components. 
+Material UI provides several methods to customize the components.
 
 1. Using className. You can use regular css or you can use the withStyles function to create a high order component. 
 2. Inline style using the style property.
@@ -37,4 +37,5 @@ const theme = createMuiTheme({
 });
 ```
 
+If you use this approach, all buttons will be affected, as long as it's within the scope of the mui theme.
 
