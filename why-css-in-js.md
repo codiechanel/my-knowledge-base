@@ -8,5 +8,5 @@ And what about sharability? Since the style is separate from the component, othe
 
 If you want to decorate it, sure you can use another css file. But with complex components that have nested child components, how you are going to style the child components?
 
-Since React is actually an html to js technology, i think it follows that we should adopt this to css as well.
+Since React is actually an html to js technology, i think it follows that we should adopt this approach to css as well.
 
