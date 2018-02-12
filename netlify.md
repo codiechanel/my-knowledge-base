@@ -4,7 +4,18 @@ If you’re developing a single page app and want history pushstate to work so y
 
 `/*    /index.html   200`
 
-Although I have managed to make react router work without this, you should try it in case the router doesn't work. 
+Although I have managed to make react router work without this, you should try it in case the router doesn't work.
+
+## Proxying {#proxying}
+
+Just like you can rewrite paths like`/*`to`/index.html`, you can also set up rules to let parts of your site proxy to external services. Let’s say you need to communicate from a Single Page App with an API on[https://api.example.com](https://api.example.com/)that doesn’t support CORS request. The following rule will let you use /api/ from your JavaScript client:
+
+```
+/api/*  https://api.example.com/:splat  200
+
+```
+
+Now all requests to /api/… will be proxied through to[https://api.example.com](https://api.example.com/)straight from our CDN servers without an additional connection from the browser. If the API supports standard HTTP caching mechanisms like Etags or Last-Modified headers, the responses will even get cached by CDN nodes.
 
 For the old react-scripts version 1
 
