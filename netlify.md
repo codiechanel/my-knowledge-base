@@ -12,12 +12,29 @@ Just like you can rewrite paths like`/*`to`/index.html`, you can also set up rul
 
 ```
 /api/*  https://api.example.com/:splat  200
-
 ```
 
 Now all requests to /api/… will be proxied through to[https://api.example.com](https://api.example.com/)straight from our CDN servers without an additional connection from the browser. If the API supports standard HTTP caching mechanisms like Etags or Last-Modified headers, the responses will even get cached by CDN nodes.
 
-For the old react-scripts version 1
+### Lambda Functions
+
+Netlify offers aws lambda functions. By default these are cors enabled. You can send additional headers on your response to enable cors.
+
+```javascript
+   callback(null, {
+        statusCode: 200,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Headers":
+            "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        body: JSON.stringify(res)
+      });
+```
+
+
+
+**For the old react-scripts version 1**
 
 **create .babelrc**
 
