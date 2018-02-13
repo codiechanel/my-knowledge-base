@@ -21,3 +21,7 @@ This is easier in a monorepo, but pretty difficult to implement in a non-monolit
 
 Imagine if you have multiple websites that share a common library. In a non monolithic environment, you will need to deploy each of these websites separately. Now, with a monorepo, you deploy once, and all your websites will get deployed automatically. Because there is only one repository. The disadvantage of this is that if you make a change on just one website and deploy, all your websites will get deployed again even though there is really no change in them. But I think this could be solved by modifying some config on your CI environment. Like implementing a conditional NO-OP if that particular site didn't change at all.
 
+**Bug Fixing**
+
+If multiple modules are affected by the same bug, then there will be one commit, and your test is syncronized. You won't make the commit unless all modules pass. 
+
