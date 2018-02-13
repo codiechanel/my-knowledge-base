@@ -13,3 +13,9 @@ Monorepos are meant for related modules, which share common versioning. A good e
 
 There are two types of monorepos. The Monstrous Monorepos and the project monorepos. The Monstrous Monorepos is the single repository of a company, which includes both related and unrelated components. Project monorepos only contain related components.
 
+**Making large scale refactorings**
+
+This is easier in a monorepo, but pretty difficult to implement in a non-monolithic environment. Say we are changing the api of a core library, therefore, we also need to change other libraries that depend on it. In a monolithic environment, there will be just one commit for all modules.
+
+
+
