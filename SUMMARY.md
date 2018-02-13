@@ -25,4 +25,5 @@
 * [Using Div](using-div.md)
 * [Devt Workflow](devt-workflow.md)
 * [Using Git](using-git.md)
+* [Using Lerna](using-lerna.md)
 
