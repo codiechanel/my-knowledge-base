@@ -10,7 +10,7 @@ I encountered some problem when I changed this on the manifest:
 
 **"start\_url": "./index.html"**
 
-I changed it to **"start\_url": "./"**, then my router stopped working. But when I applied the redirect I mentioned above, it worked again. 
+I changed it to **"start\_url": "./"**, then my router stopped working. But when I applied the redirect I mentioned above, it worked again.
 
 ## Proxying {#proxying}
 
@@ -60,6 +60,14 @@ Then...
 ```
 install babel-preset-env
 ```
+To debug a build, all you need to do is:
+
+docker pull netlify/build ;
+git clone https://github.com/netlify/build-image ; 
+cd build-image ;
+./test-tools/start-image.sh /path/to/your/repository
+
+…and then run: build <your build command>
 
 
 
