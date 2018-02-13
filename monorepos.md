@@ -17,5 +17,7 @@ There are two types of monorepos. The Monstrous Monorepos and the project monore
 
 This is easier in a monorepo, but pretty difficult to implement in a non-monolithic environment. Say we are changing the api of a core library, therefore, we also need to change other libraries that depend on it. In a monolithic environment, there will be just one commit for all modules.
 
+**Single CI**
 
+Imagine if you have multiple websites, that a common library. In a non monolithic environment, you will need to deploy each of these websites separately. Now, with a monorepo, you deploy once, and all your websites will get deployed automatically. 
 
