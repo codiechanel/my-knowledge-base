@@ -8,7 +8,7 @@ git push --force --set-upstream origin master
 
 commit changes
 
-This would push to remote.
+This would push directly to remote. 
 
 `git push origin HEAD:master`
 
@@ -17,4 +17,6 @@ or
 `git push origin hotfix`
 
 which would allow you to create a merge request
+
+now you could 
 
