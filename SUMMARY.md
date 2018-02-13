@@ -24,4 +24,5 @@
 * [CSS Grid](css-grid.md)
 * [Using Div](using-div.md)
 * [Devt Workflow](devt-workflow.md)
+* [Using Git](using-git.md)
 
