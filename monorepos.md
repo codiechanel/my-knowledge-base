@@ -1,3 +1,6 @@
+
+---
+
 ## Monorepos
 
 Instead of relying on binaries, monorepos depends directly on the source code of the modules it depends on.
@@ -6,7 +9,7 @@ One advantage of a monorepo is the sharing of common 3rd party libraries. For in
 
 But don'tmake the mistake that if a company adopts a monorepo approach, it will have only one repo for the whole company.
 
-Monorepos are meant for related modules, which share common versioning. A good example is Babel, which have loads of components, mostly plugins. It has a Babel-core, Babel-preset-env, Babel-react-plugin, etc. Before Babel switched to a monorepo,  these 3 components have different version numbers. Now that they use the same versioning, users of these plugins would now know if they are using the latest version of Babel or not. 
+Monorepos are meant for related modules, which share common versioning. A good example is Babel, which have loads of components, mostly plugins. It has a Babel-core, Babel-preset-env, Babel-react-plugin, etc. Before Babel switched to a monorepo,  these 3 components have different version numbers. Now that they use the same versioning, users of these plugins would now know if they are using the latest version of Babel or not.
 
-So if a module is not related at all, it should not be added to the monorepos. So in practice,
+There are two types of monorepos. The Monstrous Monorepos and the project monorepos. The Monstrous Monorepos is the single repository of a company, which includes both related and unrelated components. Project monorepos only contain related components.
 
