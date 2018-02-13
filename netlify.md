@@ -61,13 +61,14 @@ Then...
 install babel-preset-env
 ```
 To debug a build, all you need to do is:
-
+```
 docker pull netlify/build ;
 git clone https://github.com/netlify/build-image ; 
 cd build-image ;
 ./test-tools/start-image.sh /path/to/your/repository
+```
 
-…and then run: build <your build command>
+and then run: build <your build command>
 
 
 
