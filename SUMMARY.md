@@ -28,4 +28,5 @@
 * [Using Lerna](using-lerna.md)
 * [Monorepos](monorepos.md)
 * [Using Babel](using-babel.md)
+* [Build Tips](build-tips.md)
 
