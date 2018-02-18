@@ -1,6 +1,8 @@
-add remote 
+add remote
 
-git remote add origin https://github.com/user/repo.git
+git remote add origin [https://github.com/user/repo.git](https://github.com/user/repo.git)
+
+or git@github.com:user/repo.git for ssh
 
 git push --force --set-upstream origin master
 
