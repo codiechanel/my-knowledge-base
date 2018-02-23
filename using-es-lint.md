@@ -1,4 +1,5 @@
 **commands**:
+
 ```
 eslint --init
 ```
@@ -38,4 +39,8 @@ Example **.eslintrc **use by [create-react-app](https://github.com/facebook/crea
 Notes:
 
 The plugins section is important, it allows us to use `react/jsx-uses-vars`rule that will prevent `no-unused-vars` warning.
+
+**Install globally**
+
+**`npm i -g eslint babel-eslint eslint-plugin-react`**
 
