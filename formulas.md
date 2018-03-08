@@ -8,9 +8,9 @@
 
 convert degrees to radians
 
-let radians = \(degrees\) =&gt; {
-
-        return degrees \* Math.PI / 180;
-
+```javascript
+let radians = (degrees) => {
+        return degrees * Math.PI / 180;
       };
+```
 
