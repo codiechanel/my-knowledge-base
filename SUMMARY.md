@@ -30,4 +30,5 @@
 * [Using Babel](using-babel.md)
 * [Build Tips](build-tips.md)
 * [Using css](using-css.md)
+* [Formulas](formulas.md)
 
